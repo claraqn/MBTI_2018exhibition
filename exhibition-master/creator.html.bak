@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Creator</title>
+<link href="https://fonts.googleapis.com/css?family=Gaegu:300,400,700&amp;subset=korean" rel="stylesheet">
+
+<style type="text/css">
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s linear;
+}
+.overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+table{
+width: 100%;
+height: 100%;
+margin-left: auto; 
+margin-right: auto;
+padding: 15px;
+
+ }
+body{
+	background-color:   #FFD85F;
+	font-family: 'Gaegu', cursive;
+	font-size: 40px;
+	color: #5B370D;
+	overflow-y: hidden; overflow-x: hidden;
+	
+}
+p{
+	font-family: 'Gaegu', cursive;
+	font-size: 28px;
+	color: #5B370D;
+	
+	}
+img.relative{
+	position: relative;
+	vertical-align: bottom;
+}
+
+@media ( max-width: 768px ) {/*모바일화면에서의 변경사항*/
+  body {
+    overflow-y: visible; /*스크롤바 숨김 해제*/
+  }
+  }
+</style>
+ </head>
+ 
+ 
+<body>
+<p></p>
+
+<table border="0" height="100%">
+
+
+<div class="overlay">
+<tr align="center">
+	<!--임혜원 사진-->
+	
+	<td><img src="https://github.com/claraqn/exhibition/blob/master/clara.jpg?raw=true"  
+	style="border: 3px solid #CC7411;
+			border-radius: 70px;
+			-moz-border-radius: 70px;
+			-khtml-border-radius: 70px;
+			-webkit-border-radius: 70px;" 
+	height=350px; width=260px;></img></td>
+	<!--handshake 사진-->
+	<td rowspan="3" align="center"><img src="https://github.com/claraqn/exhibition/blob/master/handshake.png?raw=true" class='relative'></td>
+
+	<!--문금경 사진-->
+	<td><img src="https://github.com/claraqn/exhibition/blob/master/kg.jpg?raw=true"
+	style="border: 3px solid #CC7411;
+			border-radius: 70px;
+			-moz-border-radius: 70px;
+			-khtml-border-radius: 70px;
+			-webkit-border-radius: 70px;" 
+	height=350px; width=250px;></img></td>
+</tr></div>
+
+ <tr align="center">
+ 	<td style="background-color:#E58518">임혜원</td>
+	
+	<td style="background-color:#E58518">문금경</td>
+</tr>
+<tr align="center">
+<!--임혜원 설명-->
+<td width=700 style="background-color:##ffdab9"><p>*사진 실물과 다름 주의*</p><p>사용자가 아닌 개발자로써 함께 전시회를 준비하게 되어서 너무 즐겁고 소중한 경험이 되었다. 처음엔 막막했지만 함께 힘을 합쳐 결과를 잘 낸 것 같아 뿌듯하고 비록 많은 오류들이 있었지만 결과물을 보니 스스로가 대견해다.</p></td>
+<!--문금경 설명-->
+<td width=700 style="background-color:##ffdab9"><p>*실물이 더 나음 주의*</p><p>혼자가 아닌 같이여서 더 의미있는 작품을 만들 수 있을 것 같아서 팀을 이뤄 프로젝트를 했다. 막연하게만 생각했었던 목표였기에 서투른 점도 많았지만 함께 고민해서 작품을 낼 수 있어 좋았다.</p></td>
+</tr>
+
+
+</table>
+</div>
+</body>
+</html>

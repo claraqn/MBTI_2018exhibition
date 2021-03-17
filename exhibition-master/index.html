@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MBTI Test</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <p id="welcome">Welcome to 'Personnality Type Test'</p>
+    </div>
+    <form action="./myDB_connect.php" method="_REQUEST">
+      <div id="inputs">
+        <input type="text" id="name" name="name" placeholder="이름을 입력하세요">
+      </div>
+      <div id="wrap"></div>
+      <div class="submit">
+        <input type='submit' value='제출' />
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
